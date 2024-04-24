@@ -1,0 +1,14 @@
+1. Collect_imgs.py
+   use of different hand gestures for different letters most preferably use differnt sign gesture for similar signs in ASL.
+   create a dataset of images per class >=100
+2. Create_dataset.py
+   in the code , there is a line where all the imgs are converted from BGR to RBG because the output cv2 videocapture should be in RBG format not in BGR format.
+   Type cv2.imshow('frame',frame_rgb) inside the process_camera_feed after frame_rgb line of gui.py .Try to experiment with the code for better understanding
+3.Train.py
+   Use of differnt type of training classifier will increase the efficiency of model trained and output predicted
+   NOTE: How well you classify your dataset has a direct connection with efficient model trained.
+4.gui.py
+   In the gui.py you can alter the requirements of the layout,buttons,labels and so on.
+   gui can also be created using tkinter.
+   give appropriate labels for your signs classified.
+   Note: train a seperate sign uniquely for space and label as " ".
