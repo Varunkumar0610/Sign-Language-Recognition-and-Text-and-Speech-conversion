@@ -16,8 +16,8 @@ model.fit(x_train, y_train)
 y_predict = model.predict(x_test)
 score = accuracy_score(y_test, y_predict)
 #use of different classifier model and print the accuracy of the trained model
-print('Accuracy of the K-Nearest Neighbors (KNN) Classifier model: {}'.format(score))
+print('Accuracy of the K-Nearest Neighbors (KNN) Classifier model: {}'.format(score*100))
 #dump the trained model as model.p file or model.h5 file
-f = open('model5.p', 'wb')
+f = open('model.p', 'wb')
 pickle.dump({'model': model}, f)
 f.close()
