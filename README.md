@@ -17,3 +17,5 @@ ACCURACY:
 -->Gradient Boosting Classifier==~95-98%
 
 -->AdaBoost Classifier==~50-70%
+
+![Screenshot (80)](https://github.com/Varunkumar0610/Sign-Language-Recognition-and-Text-and-Speech-conversion/assets/145918067/9ae3c733-f4b9-4936-b0d5-61bffce92b97)
